@@ -1,4 +1,3 @@
-```
 # Redis and Apache Setup with Docker
 
 This guide provides a comprehensive tutorial on how to install and run Redis and Apache web server using Docker, and how to connect them for your development projects. The instructions focus on pulling a custom Redis Docker image and running it alongside Apache, demonstrating a basic integration for practical use.
@@ -180,4 +179,3 @@ $redis->connect('redis', 6379);
 This completes the full tutorial to install, run, and connect Redis with Apache using Docker for a basic web environment setup.
 
 Happy coding!
-```
