@@ -161,6 +161,10 @@ $redis->connect('redis', 6379);
 
 ## Troubleshooting
 
+- Replace `myStrongPassword123` with a strong, secure password you manage.
+- For Dockerized Apache and Redis in different containers on same network, use the Redis container hostname and provide the password in the PHP client.
+- Keep the Redis config file secure and do not share passwords publicly.
+
 - **Redis container not starting:** Check Docker logs with `docker logs redis`.
 - **Cannot connect to Redis from PHP:** Verify Redis is listening on your network interface, check firewall rules.
 - **PHP Redis extension errors:** Confirm the extension is installed and enabled in your PHP setup.
